@@ -1,0 +1,22 @@
+services:
+  app:
+    build:
+      context: ..        
+      dockerfile: infra/Dockerfile
+    working_dir: /workspace
+    volumes:
+      - ..:/workspace
+    ports:
+      - "8888:8888"
+    depends_on:
+      - mongodb
+
+  mongodb:
+    image: mongo:6.0
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+
+volumes:
+  mongo_data:

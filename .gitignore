@@ -1,0 +1,58 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.pickle
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Poetry
+poetry.lock
+*.egg-info/
+dist/
+build/
+
+# Logs
+*.log
+
+# Editor/IDE configs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Docker
+*.pid
+*.seed
+*.pid.lock
+
+# Data folders (raw, temp, frames, etc.)
+app/data/raw/
+app/data/frames/
+app/data/fits/
+app/data/hist_from_db/
+
+# Database files (se houver)
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.orig
