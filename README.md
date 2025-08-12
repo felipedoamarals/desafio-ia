@@ -45,8 +45,7 @@ desafio-ia/
 
 ## Pré-requisitos
 
-- **Docker** e **Docker Compose** instalados.
-- **Poetry** 
+- **Docker**
 - **Git**
 - **make (GNU Make)**
 - Vídeo de input (`video.mp4`) em `app/data/raw/`.
